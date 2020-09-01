@@ -10,6 +10,7 @@ body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	overflow: hidden;
 }
 
 body {
@@ -20,6 +21,10 @@ body {
 
 	/* without this the body position shifts due to the clock */
 	position: absolute;
+}
+
+.night {
+	background: linear-gradient(to bottom, hsl(210, 13%, 3%), black);
 }
 
 #helpIcon {

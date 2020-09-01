@@ -158,6 +158,13 @@ function initClock (latitude, longitude) {
 		timePeriodDuration = sunrise.timelocal + MINUTES_PER_DAY - timePeriodBegin;
 	}
 
+	if (isNight) {
+		document.body.classList.add('night');
+	}
+	else {
+		document.body.classList.remove('night');
+	}
+
 	hideWelcome();
 	helpFadeHandle = setTimeout(fadeoutHelp, HELP_FADE_DELAY);
 	update();

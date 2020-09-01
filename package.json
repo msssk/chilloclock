@@ -1,12 +1,12 @@
 {
 	"name": "chilloclock",
-	"version": "1.0.0-alpha",
+	"version": "1.0.0-alpha2",
 	"description": "Imprecise clock for chill timekeeping",
 	"main": "index.html",
 	"homepage": "https://msssk.github.io/chilloclock/",
 	"author": "Mangala Sadhu Sangeet Singh Khalsa",
 	"scripts": {
-		"build": "parcel build index.html --public-url ./"
+		"build": "parcel build index.html --out-dir gh-pages --public-url ./"
 	},
 	"devDependencies": {
 		"cssnano": "^4.1.10"
