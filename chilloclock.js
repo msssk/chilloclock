@@ -51,7 +51,7 @@ function update () {
 	const timeInMinutes = (now.getHours() * 60) + now.getMinutes();
 	const isAfterMidnight = timeInMinutes < timePeriodBegin;
 	const percentOfTimePeriodElapsed = isAfterMidnight ?
-		((timePeriodDuration - timeInMinutes) / timePeriodDuration) :
+		((timeInMinutes + MINUTES_PER_DAY - sunset.timelocal) / timePeriodDuration) :
 		((timeInMinutes - timePeriodBegin) / timePeriodDuration);
 
 	if (percentOfTimePeriodElapsed > 1) {

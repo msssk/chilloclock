@@ -14,7 +14,7 @@ body {
 }
 
 body {
-	background: linear-gradient(to bottom, hsl(210, 13%, 11%), hsl(210, 13%, 6%));
+	background: linear-gradient(to bottom, hsl(210, 13%, 8%), hsl(210, 13%, 3%));
 	color: lightgray;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: calc(2 * var(--base-size));
@@ -171,6 +171,10 @@ body {
 .chilloclock .day {
 	background: radial-gradient(skyblue, hsl(224, 82%, 7%));
 	top: calc(-18 * var(--base-size));
+}
+
+.night .chilloclock .day {
+	background: radial-gradient(hsl(197, 44%, 44%), hsl(224, 82%, 7%));
 }
 
 .chilloclock .night {
