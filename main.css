@@ -14,7 +14,7 @@ body {
 }
 
 body {
-	background: linear-gradient(to bottom, hsl(210, 13%, 8%), hsl(210, 13%, 3%));
+	background: linear-gradient(to bottom, hsl(210, 13%, 4%), hsl(210, 13%, 2%));
 	color: lightgray;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: calc(2 * var(--base-size));
@@ -24,7 +24,7 @@ body {
 }
 
 .night {
-	background: linear-gradient(to bottom, hsl(210, 13%, 3%), black);
+	background: linear-gradient(to bottom, hsl(210, 13%, 2%), black);
 }
 
 #helpIcon {
@@ -153,7 +153,6 @@ body {
 }
 
 .chilloclock {
-	background-color: darkslategray;
 	clip-path: circle(50% at 50% 50%);
 	margin: 5em auto 0 auto;
 	position: relative;
