@@ -119,7 +119,7 @@ function onKeydown (event) {
 }
 
 document.addEventListener('keydown', onKeydown);
-document.body.addEventListener('pointermove', throttle(showHelpIcon), 500);
+document.body.addEventListener('pointermove', throttle(showHelpIcon, 500));
 
 closeIcon.addEventListener('click', hideWelcome);
 
