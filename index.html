@@ -1,1 +1,81 @@
-<!doctype html><html lang="en-US"><head><title>chill clock</title><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link href="index.3ceeeb49.css" rel="stylesheet"></head><body> <div class="chilloclock"> <div class="day"></div> <div class="night"></div> <div class="icon sunrise">🌅</div> <div class="icon sunset">🌄</div> <div class="icon sun">☀️</div> <div class="icon moon">🌑</div> <div class="orb orb1 small"></div> <div class="orb orb2"></div> <div class="orb orb3 small"></div> <div class="orb orb4 small"></div> <div class="orb orb5"></div> <div class="orb orb6 small"></div> <div class="night orb orb7"></div> <div class="night orb orb8"></div> <div class="arm"></div> <div class="armCenter"></div> </div> <div id="welcome" hidden> <div class="closeIcon">✖️</div> <header> <i>What time is it?</i> <div>it's chill o'clock</div> </header> <p> Chill O'clock is an intentionally imprecise clock. The day, which is from sunrise til sunset and varies with the seasons, is divided into 8 parts. The night is divided into 4 parts. </p> <p> <span class="info">ℹ️</span> TIP: press +/- to increase/decrease the size of the clock </p> <p> Chill O'clock needs to know where you are to determine when sunrise and sunset are. </p> <button id="locationButton">Share your location</button> <div id="locationForm" hidden> <form id="coordinatesForm"> <label>latitude: <input placeholder="e.g. 22.34" name="latitude" type="text"></label> <label>longitude: <input placeholder="e.g. 22.34" name="longitude" type="text"></label> <button type="submit">OK</button> </form> <hr> <p>Don't know your coordinates? Enter your city:</p> <div> <input id="city" autocomplete="address-level2" type="text"> <button id="wikiButton" type="button">Check wikipedia</button> </div> <p>For example the wikipedia value of 33°27′N 112°04′W gives:</p> <ul> <li>latitude: 33.27 (N is positive, S is negative)</li> <li>longitude: -112.04 (E is positive, W is negative)</li> </ul> </div> </div> <div id="helpIcon"> <div class="background"></div> <div class="icon">❓</div> </div> <div class="fadeOverlay"></div>  <script src="index.6758e2cf.js" type="module"></script> </body></html>
+<!DOCTYPE html><html lang=en-US><title>chill clock</title><meta charset=utf-8><meta name=viewport content="width=device-width"><link href=chilloclock.aa483517.css rel=stylesheet><body>
+		<div class=chilloclock>
+			<div class=night></div>
+			<div class=day></div>
+
+			<div class="icon sunrise">🌅</div>
+			<div class="icon sunset">🌄</div>
+			<div class="icon sun">☀️</div>
+			<div class="icon moon">🌑</div>
+
+			<div class="orb orb1 small"></div>
+			<div class="orb orb2"></div>
+			<div class="orb orb3 small"></div>
+			<div class="orb orb4 small"></div>
+			<div class="orb orb5"></div>
+			<div class="orb orb6 small"></div>
+			<div class="night orb orb7"></div>
+			<div class="night orb orb8"></div>
+
+			<div class=arm></div>
+			<div class=armCenter></div>
+		</div>
+
+		<div id=welcome hidden>
+			<div class=closeIcon>✖️</div>
+
+			<header>
+				<i>What time is it?</i>
+				<div>it's chill o'clock</div>
+			</header>
+
+			<p>
+				Chill O'clock is an intentionally imprecise clock. The day, which is from sunrise til sunset and varies
+				with the seasons, is divided into 8 parts. The night is divided into 4 parts.
+			</p>
+
+			<p>
+				<span class=info>ℹ️</span> TIP: press +/- to increase/decrease the size of the clock
+			</p>
+
+			<p>
+				Chill O'clock needs to know where you are to determine when sunrise and sunset are.
+			</p>
+
+			<button id=locationButton>Share your location</button>
+
+			<div id=locationForm hidden>
+				<form id=coordinatesForm>
+					<label>latitude: <input placeholder="e.g. 22.34" name=latitude></label>
+					<label>longitude: <input placeholder="e.g. 22.34" name=longitude></label>
+					<button>OK</button>
+				</form>
+
+				<hr>
+
+				<p>Don't know your coordinates? Enter your city:</p>
+				<div>
+					<input id=city autocomplete=address-level2>
+					<button id=wikiButton type=button>Check wikipedia</button>
+				</div>
+				<p>For example the wikipedia value of 33°27′N 112°04′W gives:</p>
+				<ul>
+					<li>latitude: 33.27 (N is positive, S is negative)</li>
+					<li>longitude: -112.04 (E is positive, W is negative)</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id=helpIcon>
+			<div class=background></div>
+			<div class=icon>❓</div>
+		</div>
+
+		<div class=fadeOverlay></div>
+
+
+		
+
+		<script src=chilloclock.9320c17c.js type=module></script>
+	
+
