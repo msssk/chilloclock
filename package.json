@@ -1,6 +1,6 @@
 {
 	"name": "chilloclock",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Imprecise clock for chill timekeeping",
 	"homepage": "https://msssk.github.io/chilloclock/",
 	"author": "Mangala Khalsa",
@@ -8,7 +8,7 @@
 		"build": "parcel build index.html --dist-dir gh-pages --public-url ./"
 	},
 	"devDependencies": {
-		"cssnano": "^6.0.0",
-		"parcel": "^2.8.3"
+		"cssnano": "^7.1.1",
+		"parcel": "^2.16.0"
 	}
 }
