@@ -75,7 +75,7 @@ function update () {
 		}
 	}
 
-	const armAngle = (180 * percentOfTimePeriodElapsed) + (isNight ? 180 : 0);
+	const armAngle = (180 * percentOfTimePeriodElapsed) + (isNight ? 0 : 180);
 	clockNode.style.setProperty('--arm-angle', `${armAngle}deg`);
 	updateHandle = setTimeout(update, updateFrequency);
 }

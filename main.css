@@ -169,7 +169,7 @@ body {
 
 .chilloclock .day {
 	background: radial-gradient(skyblue, hsl(224, 82%, 7%));
-	top: calc(-18 * var(--base-size));
+	bottom: calc(-18 * var(--base-size));
 }
 
 .night .chilloclock .day {
@@ -178,7 +178,7 @@ body {
 
 .chilloclock .night {
 	background: radial-gradient(hsl(224, 82%, 6%), hsl(224, 82%, 16%));
-	bottom: calc(-18 * var(--base-size));
+	top: calc(-18 * var(--base-size));
 }
 
 .chilloclock .orb {
@@ -200,51 +200,51 @@ body {
 }
 
 .chilloclock .orb1 {
-	clip-path: circle(32% at 40% 62%);
-	top: 28.20%;
-	left: 4.80%;
+	clip-path: circle(32% at 61% 61%);
+	top: 63.20%;
+	left: 88.00%;
 }
 
 .chilloclock .orb2 {
-	clip-path: circle(32% at 32% 61%);
-	top: 11.80%;
-	left: 13.00%;
-}
-
-.chilloclock .orb3 {
-	clip-path: circle(32% at 41% 55%);
-	top: 3.60%;
-	left: 29.19%;
-}
-
-.chilloclock .orb4 {
-	clip-path: circle(32% at 60% 58%);
-	top: 3.80%;
-	left: 65.59%;
-}
-
-.chilloclock .orb5 {
-	clip-path: circle(32% at 61% 61%);
-	top: 11.20%;
-	left: 76.40%;
-}
-
-.chilloclock .orb6 {
-	clip-path: circle(32% at 61% 61%);
-	top: 28.20%;
-	left: 89.00%;
-}
-
-.chilloclock .orb7 {
 	clip-path: circle(32% at 40% 56%);
 	top: 76.38%;
 	left: 78.20%;
 }
 
-.chilloclock .orb8 {
+.chilloclock .orb3 {
+	clip-path: circle(32% at 60% 58%);
+	top: 88.80%;
+	left: 63.60%;
+}
+
+.chilloclock .orb4 {
+	clip-path: circle(32% at 41% 55%);
+	top: 89.60%;
+	left: 29.19%;
+}
+
+.chilloclock .orb5 {
 	clip-path: circle(32% at 61% 56%);
 	top: 76.19%;
 	left: 11.60%;
+}
+
+.chilloclock .orb6 {
+	clip-path: circle(32% at 40% 62%);
+	top: 63.20%;
+	left: 4.80%;
+}
+
+.chilloclock .orb7 {
+	clip-path: circle(32% at 61% 61%);
+	top: 11.20%;
+	left: 12%;
+}
+
+.chilloclock .orb8 {
+	clip-path: circle(32% at 32% 61%);
+	top: 11.80%;
+	left: 78.40%;
 }
 
 .chilloclock .icon {
@@ -266,13 +266,13 @@ body {
 
 .chilloclock .sun {
 	left: 50%;
-	transform: translateX(-50%);
+	top: 100%;
+	transform: translate(-50%, -100%);
 }
 
 .chilloclock .moon {
 	left: 50%;
-	top: 100%;
-	transform: translate(-50%, -100%);
+	transform: translateX(-50%);
 }
 
 .chilloclock .armCenter {
